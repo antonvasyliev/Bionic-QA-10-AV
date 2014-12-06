@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 3">
+			<Prp name="date" type="D" value="41979.9397104051"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="color" type="I" value="-252645136"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="bkcolor" type="I" value="-252645136"/>
+			<Prp name="message" type="S" value="The 'HW - Notepad' window was closed."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Aliases.NOTEPAD.wndNotepad&#xA;(Sys.Process(&quot;notepad&quot;).Window(&quot;Notepad&quot;, &quot;Untitled - Notepad&quot;, 1))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="date" type="D" value="41979.9396904745"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="color" type="I" value="-252645136"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="bkcolor" type="I" value="-252645136"/>
+			<Prp name="message" type="S" value="The file 'HW.txt' was selected in the Save dialog."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="The file 'C:\HW.txt' was saved as a 'Text Documents (*.txt)' file.&#xA;"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="date" type="D" value="41979.9396854861"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="color" type="I" value="-252645136"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="bkcolor" type="I" value="-252645136"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="'Hello World!!^s' was sent as a keyboard input to a window:&#xA;&#xA;Aliases.NOTEPAD.wndNotepad.Edit&#xA;(Sys.Process(&quot;notepad&quot;).Window(&quot;Notepad&quot;, &quot;Untitled - Notepad&quot;, 1).Window(&quot;Edit&quot;, &quot;&quot;, 1))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="date" type="D" value="41979.9396802778"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="color" type="I" value="-252645136"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="bkcolor" type="I" value="-252645136"/>
+			<Prp name="message" type="S" value="The application &quot;C:\WINDOWS\system32\notepad.EXE&quot; started."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{E6CC9014-BE83-4AEB-83CA-59D9868F7601}"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="stack"/>
+		<Node name="message 7">
+			<Prp name="date" type="D" value="41979.9397200347"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="color" type="I" value="-252645136"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="bkcolor" type="I" value="-252645136"/>
+			<Prp name="message" type="S" value="The 'HW - Notepad' window was closed."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Aliases.NOTEPAD.wndNotepad&#xA;(Sys.Process(&quot;NOTEPAD&quot;).Window(&quot;Notepad&quot;, &quot;HW - Notepad&quot;, 1))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 6">
+			<Prp name="date" type="D" value="41979.9397184028"/>
+			<Prp name="priority" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="color" type="I" value="-252645136"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="bkcolor" type="I" value="-252645136"/>
+			<Prp name="message" type="S" value="The property value &quot;Hello World!&quot; equals the baseline value &quot;Hello World!&quot;."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="date" type="D" value="41979.9397148148"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="color" type="I" value="-252645136"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="bkcolor" type="I" value="-252645136"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="'C:\HW.txt[Enter]' was sent as a keyboard input to a window:&#xA;&#xA;Aliases.cmd.wndConsoleWindowClass&#xA;(Sys.Process(&quot;cmd&quot;).Window(&quot;ConsoleWindowClass&quot;, &quot;C:\\WINDOWS\\system32\\cmd.EXE&quot;, 1))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="date" type="D" value="41979.9397112153"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="color" type="I" value="-252645136"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="bkcolor" type="I" value="-252645136"/>
+			<Prp name="message" type="S" value="The application &quot;C:\WINDOWS\system32\cmd.EXE&quot; started."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>
